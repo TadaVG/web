@@ -86,8 +86,11 @@ const HorizontalVideo = () => {
   };
 
   return (
-    <div className="w-screen min-h-screen relative flex flex-col justify-start items-center bg-cover bg-center bg-no-repeat bg-fixed" 
-      style={{ backgroundImage: "url('/background4.jpg')" }}>
+    <div
+      className="w-screen min-h-screen relative flex flex-col justify-start items-center bg-cover bg-center bg-no-repeat bg-fixed"
+      style={{ backgroundImage: "url('https://xqgftsgrnwtzdsuziqsj.supabase.co/storage/v1/object/public/bg/background4.jpg')" }}
+    >
+  
       
       <div className="absolute inset-0 bg-black opacity-50"></div>
 

@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 const FreeDemo: React.FC = () => {
   const navigate = useNavigate();
 
-  return (
-    <div
-      className="relative min-h-screen w-screen flex flex-col justify-center items-center px-8 py-16 bg-cover bg-center"
-      style={{ backgroundImage: "url('/background2.jpg')" }} // ✅ JPG Arka Plan
-    >
+  
+    return (
+      <div
+        className="relative min-h-screen w-screen flex flex-col justify-center items-center px-8 py-16 bg-cover bg-center"
+        style={{ backgroundImage: "url('https://xqgftsgrnwtzdsuziqsj.supabase.co/storage/v1/object/public/bg/background2.jpg')" }} // ✅ Güncellenmiş URL
+      >
+  
+    
       {/* ✅ Siyah Overlay Katmanı */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
